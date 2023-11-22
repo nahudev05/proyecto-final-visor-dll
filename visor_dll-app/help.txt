@@ -1,0 +1,34 @@
+DLL Function Viewer - Ayuda
+
+Breve Resumen:
+---------------
+DLL Function Viewer es una aplicación de línea de comandos para visualizar funciones exportadas en archivos DLL. Esta herramienta es útil para analizar bibliotecas dinámicas y explorar las funciones disponibles.
+
+Comandos Disponibles:
+----------------------
+1. `visor_dll.py explore <archivo.dll>` - Explora las funciones exportadas en el archivo DLL especificado.
+
+Ejemplo de Uso:
+---------------
+1. Para explorar las funciones de un archivo DLL:
+
+-Selecciona el archivo que quieres visualizar.
+-Presiona en buscar funciones.
+-Ve las funciones dentro del cuadro de funciones.
+
+Configuración:
+---------------
+La configuración de la aplicación se gestiona mediante un archivo INI llamado `config.ini`. Personaliza la apariencia de la ventana principal y los textos de la interfaz de usuario según tus preferencias.
+
+Ejemplo de configuración en `config.ini`:
+```ini
+[MainWindow]
+title = DLL Function Viewer
+geometry = 600x400
+
+[FileSelection]
+label_text = Seleccionar Archivo DLL:
+button_text = Explorar
+
+
+¡Gracias por utilizar DLL Function Viewer!
